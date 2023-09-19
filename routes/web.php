@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\BackendController;
+use App\Http\Controllers\Api\MobileApplicationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::prefix('api')->group(function () {
+    Route::post('/getPaymentDetail', [MobileApplicationController::class, "getPaymentDetail"]);
+});
 
 Route::get('/', function () {
     return view('welcome');
