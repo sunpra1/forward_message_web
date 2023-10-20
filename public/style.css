@@ -4,3 +4,13 @@
     font-family: RobotoSlab;
     font-size: 15px;
 }
+
+.bg-beauty{
+    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    /* background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%); */
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.box-shadow{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.30);
+}

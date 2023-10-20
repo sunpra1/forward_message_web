@@ -18,6 +18,12 @@ Route::prefix('api')->group(function () {
     Route::post('/getPaymentDetail', [MobileApplicationController::class, "getPaymentDetail"]);
 });
 
+Route::prefix('privacy-policy')->group(function () {
+    Route::get('/forward-message', function () {
+        return view('privacy-policy');
+    });
+});
+
 Route::get('/', function () {
     return view('home');
 });
