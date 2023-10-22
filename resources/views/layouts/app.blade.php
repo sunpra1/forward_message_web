@@ -7,18 +7,20 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Online Shop</title>
+    <title>dev.sunpra</title>
 
 
     <!-- Fonts -->
 
     <!-- Styles -->
+
+    <link href="{{ asset('fontawesome/css/all.css') }}" rel="stylesheet">
     <link href="{{ asset('bootstrap/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('style.css') }}" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">dev.sunpra</a>
+        <a class="navbar-brand app-logo" href="{{URL('/')}}">dev.sunpra</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +33,7 @@
                 Privacy Policies
               </a>
               <div class="dropdown-menu py-0">
-                <a class="dropdown-item" href="#">Forward Message</a>
+                <a class="dropdown-item" href="{{URL('privacy-policy/forward-message')}}">Forward Message</a>
               </div>
             </li>
           </ul>
