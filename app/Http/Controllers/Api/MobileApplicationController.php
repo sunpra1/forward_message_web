@@ -15,7 +15,8 @@ class MobileApplicationController extends Controller
     {
         $validator = Validator::make(
             $request->all(),
-            ['amount' => 'required|numeric|min:500']
+            ['amount' => 'required|numeric|min:500'],
+            ['isDebug' => 'required|boolean']
         );
 
         if ($validator->fails()) {
@@ -26,8 +27,8 @@ class MobileApplicationController extends Controller
                 400
             );
         } else {
-            $stripeSecretKey = env("STRIPE_SECRET_KEY");
-            $stripePublishableKey = env("STRIPE_PUBLISHABLE_KEY");
+            $stripeSecretKey = $request->isDebug ? env("STRIPE_SECRET_KEY_DEBUG") : env("STRIPE_SECRET_KEY_LIVE");
+            $stripePublishableKey = $request->isDebug ? env("STRIPE_PUBLISHABLE_KEY_DEBUG") : env("STRIPE_PUBLISHABLE_KEY_LIVE");
 
 
             $stripe = new Stripe\StripeClient($stripeSecretKey);
@@ -40,7 +41,7 @@ class MobileApplicationController extends Controller
                 'stripe_version' => '2022-08-01',
             ]);
             $paymentIntent = $stripe->paymentIntents->create([
-                'amount' => 500,
+                'amount' => $request->amount,
                 'currency' => 'usd',
                 'customer' => $customer->id,
                 // In the latest version of the API, specifying the `automatic_payment_methods` parameter is optional because Stripe enables its functionality by default.
