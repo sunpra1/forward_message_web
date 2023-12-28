@@ -33,7 +33,7 @@
                 Privacy Policies
               </a>
               <div class="dropdown-menu py-0">
-                <a class="dropdown-item" href="{{URL('privacy-policy/forward-message')}}">Forward Message</a>
+                <a class="dropdown-item" href="{{URL('privacy-policy/forward-message')}}">Notification Forward</a>
               </div>
             </li>
           </ul>
