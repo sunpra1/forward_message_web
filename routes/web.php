@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\Api\BackendController;
 use App\Http\Controllers\Api\MobileApplicationController;
+use App\Http\Controllers\Api\MyMemoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::prefix('api/memories')->group(function () {
+    Route::get('/', [MyMemoryController::class, "index"]);
+    Route::post('/', [MyMemoryController::class, "store"]);
+    Route::post('/{id}', [MyMemoryController::class, "update"]);
+    Route::delete('/{id}', [MyMemoryController::class, "destroy"]);
+});
+
 Route::prefix('api')->group(function () {
     Route::post('/getPaymentDetail', [MobileApplicationController::class, "getPaymentDetail"]);
 });
