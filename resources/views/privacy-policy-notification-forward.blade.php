@@ -38,15 +38,6 @@
                                                                 <br><span class="text-info">App respects your privacy and is committed for safeguarding your data. App does not share this information with third parties, and it is used solely to enhance your app experience.</span>
                                                         </p>
                                                         <div class="mx-3">
-                                                                <div class="w-100 card">
-                                                                        <p class="breadcrumb"><span class="text-danger">Query All Packages</span></p>
-                                                                        <div class="card-body">
-                                                                                <p class="card-title">Is Mandatory : <span class="text-success">YES</span></p>
-                                                                                <p class="card-text">Using this permission user can select their preferred application whose notification they want to transfer to mail. The app will solely use the
-                                                                                        <span class="text-info"> App Package Name, App Name, and App Icon Image</span> from this permission to assist users in selecting their desired application for this purpose and will not be used inappropriately.</p>
-                                                                        </div>
-                                                                </div>
-
                                                                  <div class="w-100 card mt-3">
                                                                         <p class="breadcrumb"><span class="text-danger">Read Notification</span></p>
                                                                         <div class="card-body">
@@ -75,7 +66,7 @@
                                                                         <p class="breadcrumb"><span class="text-danger">Background Location</span></p>
                                                                         <div class="card-body">
                                                                                 <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
-                                                                                <p class="card-text">If permission is granted user can enable the messaging location. Notification will only be forwarded if the user device in within the radius of 150 Meters from this location. App makes use of Google’s geofence api to track whether user has reached or exited from this location.</p>
+                                                                                <p class="card-text">If permission is granted user can enable the messaging location. Messages and notification will only be forwarded/transferred if the user device in within the radius of 150 Meters from this location. App makes use of Google’s geofence api to track whether user has reached or exited from this location.</p>
                                                                         </div>
                                                                 </div>
                                                         </div>

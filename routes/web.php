@@ -20,7 +20,10 @@ Route::prefix('api')->group(function () {
 
 Route::prefix('privacy-policy')->group(function () {
     Route::get('/notification-forward', function () {
-        return view('privacy-policy');
+        return view('privacy-policy-notification-forward');
+    });
+    Route::get('/forward-message', function () {
+        return view('privacy-policy-forward-message');
     });
 });
 
