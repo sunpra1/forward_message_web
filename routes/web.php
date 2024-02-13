@@ -1,25 +1,15 @@
 <?php
 
 use App\Http\Controllers\Api\MobileApplicationController;
-use App\Http\Controllers\Api\MyMemoryController;
+use App\Http\Controllers\Api\MemoryController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 Route::prefix('api/memories')->group(function () {
-    Route::get('/', [MyMemoryController::class, "index"]);
-    Route::post('/', [MyMemoryController::class, "store"]);
-    Route::post('/{id}', [MyMemoryController::class, "update"]);
-    Route::delete('/{id}', [MyMemoryController::class, "destroy"]);
-});
+    Route::get('/', [MemoryController::class, "index"]);
+    Route::post('/', [MemoryController::class, "store"]);
+    Route::post('/{id}', [MemoryController::class, "update"]);
+    Route::delete('/{id}', [MemoryController::class, "destroy"]);
+})->middleware('auth:sanctum');
 
 Route::prefix('api')->group(function () {
     Route::post('/getPaymentDetail', [MobileApplicationController::class, "getPaymentDetail"]);
