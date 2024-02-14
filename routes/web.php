@@ -1,7 +1,4 @@
 <?php
-
-use App\Http\Controllers\Api\MobileApplicationController;
-use App\Http\Controllers\Api\MemoryController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('privacy-policy')->group(function () {
