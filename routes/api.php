@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Api\MemoryController;
+use App\Http\Controllers\Api\MobileApplicationController;
+use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +17,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/user', function (Request $request) {
+        return $request->user();
+    });
+    Route::prefix("/memory")->group(function(){
+        Route::get('/', [MemoryController::class, "index"]);
+        Route::post('/', [MemoryController::class, "store"]);
+        Route::post('/{id}', [MemoryController::class, "update"]);
+        Route::delete('/{id}', [MemoryController::class, "destroy"]);
+    });
 });
+
+Route::prefix("/user")->group(function(){
+    Route::post('/register', [UserController::class, "register"]);
+    Route::post('/login', [UserController::class, "login"]);
+});
+
+Route::post('/getPaymentDetail', [MobileApplicationController::class, "getPaymentDetail"]);

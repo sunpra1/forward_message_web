@@ -12,7 +12,7 @@ class MemoryController extends Controller
 {
     public function index(Request $request)
     {
-       return response($request->user()->memories());
+       return response($request->user()->memories);
     }
     
     public function store(Request $request)

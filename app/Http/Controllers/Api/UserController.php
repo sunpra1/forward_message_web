@@ -13,7 +13,7 @@ class UserController extends Controller
     public function register(Request $request){
         $validator = Validator::make($request->all(), [
             'name' => 'required',
-            'email' => 'required|email',
+            'email' => 'required|email|unique:users,email',
             'password' => 'required',
             'confirm_password' => 'required|same:password',
         ]);
@@ -25,7 +25,7 @@ class UserController extends Controller
             $data['password'] = bcrypt($data['password']);
             $user = User::create($data);
             return response([
-                "token" => $user->createToken()->plainTextToken,
+                "token" => $user->createToken("api-token")->plainTextToken,
                 "user" => $user
             ]);
         }
@@ -39,11 +39,11 @@ class UserController extends Controller
         if($validator->fails()){
             return response($validator->errors(), 400);
         }else{
-            $credentials = ['email' => $request->email, 'password' => bcrypt($request->password) ];
+            $credentials = ['email' => $request->email, 'password' => $request->password ];
             if(Auth::attempt($credentials)){
                 $user = Auth::user();
                 return response([
-                    "token" => $user->createToken()->plainTextToken,
+                    "token" => $user->createToken("api-token")->plainTextToken,
                     "user" => $user
                 ]);
             }else{
