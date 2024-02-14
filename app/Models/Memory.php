@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Memory extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'title',
+        'description',
+        'lat',
+        'lng',
+        'image',
+        'user_id'
+    ];
 }

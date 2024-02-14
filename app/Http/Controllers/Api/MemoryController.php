@@ -30,7 +30,7 @@ class MemoryController extends Controller
             return response($validator->errors(), 400);
         }else{
             $user = $request->user();
-            $memory_image = $request->image[0];
+            $memory_image = $request->image;
             $new_image_name = time()."_".$memory_image->getClientOriginalName();
             if(Storage::putFileAs('public/images/memories', $memory_image, $new_image_name)){
                 $myMemory = Memory::create([
@@ -64,13 +64,15 @@ class MemoryController extends Controller
             $myMemory = $request->user()->memories()->where('id', $id)->first();
 
             if(isset($myMemory)){
-                if($request->hasFile('image')){
+                $hasFile =  $request->hasFile('image');
+                if($hasFile){
                     Storage::delete('public/images/memories/'.$myMemory->image);
-                    $memory_image = $request->image[0];
+                    $memory_image = $request->image;
                     $new_image_name = time()."_".$memory_image->getClientOriginalName();
+                    $isFileSaved = Storage::putFileAs('public/images/memories', $memory_image, $new_image_name);
                 }
 
-                if(Storage::putFileAs('public/images/memories', $memory_image, $new_image_name)){
+                if(!$hasFile || ($hasFile && isset($isFileSaved) && $isFileSaved)){
                     $myMemory->title = $request->title;
                     $myMemory->description = $request->description;
                     $myMemory->lat = $request->lat;
@@ -99,9 +101,9 @@ class MemoryController extends Controller
          if(isset($myMemory)){
             Storage::delete('public/images/memories/'.$myMemory->image);
             if ($myMemory->delete()) {
-                return response(["message" => "memory " . $myMemory->title . " deleted successfully."]);
+                return response(["message" => "Memory of" . $myMemory->title . " deleted successfully."]);
             }else{
-                return response(["message" => "memory " . $myMemory->title . " couldn't be deleted."], 500);
+                return response(["message" => "Memory of" . $myMemory->title . " couldn't be deleted."], 500);
             }
         }else{
             return response(["message" => "Memory not found."], 500);
