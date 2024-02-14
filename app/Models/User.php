@@ -44,6 +44,6 @@ class User extends Authenticatable
     ];
 
     public function memories(){
-        return $this->hasMany('App\MyMemory');
+        return $this->hasMany(Memory::class);
     }
 }
