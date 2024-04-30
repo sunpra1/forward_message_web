@@ -9,8 +9,8 @@
                                                 <img src="{{ URL('images/notification_forward_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
-                                        <p class="lead">Privacy Policy for Notification Forward i.e. Notification Forwarding App</p>
-                                        <p class="lead">Last Updated: 2023.11.01</p>
+                                        <p class="lead">Privacy Policy for Forward Message i.e. SMS and Notification Forwarding App</p>
+                                        <p class="lead">Last Updated: 2024.04.01</p>
                                         <hr class="my-4">
                                         <blockquote class="blockquote">
                                                 <p>This Privacy Policy outlines how Notification Forward collects, uses, and protects information gathered from users of our Notification Forwarding App (Notification Forward). By using the App, you agree to the practices described in this Privacy Policy.
@@ -29,15 +29,24 @@
                                                         <p>App may collect and store the following information that you provide us when you use the App:</p>
                                                 </div>
                                                 <div class="list-group-item list-group-item-action">
-                                                        <p class="breadcrumb">Email Address:</p>
-                                                        <p class="mx-3">To set up notification forwarding, you will be required to enter an email address to which you want to forward notifications. These details will be saved locally in your device. If you choose to uninstall the app or clear cache from app, these collected information will be lost permanently.</p>
+                                                        <p class="breadcrumb">Email Address or Phone Number:</p>
+                                                        <p class="mx-3">To set up SMS and notification forwarding, you will be required to enter an email address or phone number to which you want to forward SMS messages and notifications. These details will be saved locally in your device. If you choose to uninstall the app or clear cache from app, these collected information will be lost permanently.</p>
                                                 </div>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">Permission:</p>
-                                                        <p class="mx-3">The App may request access to these permissions, and/or device features necessary for forwarding notifications.
+                                                        <p class="mx-3">The App may request access to these permissions, and/or device features necessary for forwarding SMS messages and notifications.
                                                                 <br><span class="text-info">App respects your privacy and is committed for safeguarding your data. App does not share this information with third parties, and it is used solely to enhance your app experience.</span>
                                                         </p>
                                                         <div class="mx-3">
+                                                                <div class="w-100 card">
+                                                                        <p class="breadcrumb"><span class="text-danger">Query All Packages</span></p>
+                                                                        <div class="card-body">
+                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
+                                                                                <p class="card-text">Using this permission user can select their preferred application whose notification they want to transfer to mail or phone number. The app will solely use the
+                                                                                        <span class="text-info"> App Package Name, App Name, and App Icon Image</span> from this permission to assist users in selecting their desired application for this purpose and will not be used inappropriately.</p>
+                                                                        </div>
+                                                                </div>
+
                                                                  <div class="w-100 card mt-3">
                                                                         <p class="breadcrumb"><span class="text-danger">Read Notification</span></p>
                                                                         <div class="card-body">
@@ -54,6 +63,38 @@
                                                                         </div>
                                                                 </div>
 
+                                                                 <div class="w-100 card mt-3">
+                                                                        <p class="breadcrumb"><span class="text-danger">Receive SMS</span></p>
+                                                                        <div class="card-body">
+                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
+                                                                                <p class="card-text">If permission is granted app will start receiving incoming SMS. These received SMS will be forwarded and rejected based on forward information available in settings, which can be added and updated as desired by user.</p>
+                                                                        </div>
+                                                                </div>
+
+                                                                 <div class="w-100 card mt-3">
+                                                                        <p class="breadcrumb"><span class="text-danger">Read Contacts</span></p>
+                                                                        <div class="card-body">
+                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
+                                                                                <p class="card-text">If permission is granted app will have access to the device contacts. Access to the contact will provide convenience during creation of group to add group members directly from available contacts on device. These group can be utilized to only handle the message received from and only forward incoming message or notification to these groups.</p>
+                                                                        </div>
+                                                                </div>
+
+                                                                <div class="w-100 card mt-3">
+                                                                        <p class="breadcrumb"><span class="text-danger">Read Phone State & Read Phone Numbers</span></p>
+                                                                        <div class="card-body">
+                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
+                                                                                <p class="card-text">If permission is granted app can access the available inserted SIM’s in the device. From available SIM’s user can select their preferred SIM that will be used to forward the incoming message or notification.</p>
+                                                                        </div>
+                                                                </div>
+
+                                                                 <div class="w-100 card mt-3">
+                                                                        <p class="breadcrumb"><span class="text-danger">Send SMS</span></p>
+                                                                        <div class="card-body">
+                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
+                                                                                <p class="card-text">If permission is granted incoming messages or notifications can only be forwarded to another phone number. Still you can choose to forward these incoming messages or notifications to email contact.</p>
+                                                                        </div>
+                                                                </div>
+
                                                                 <div class="w-100 card mt-3">
                                                                         <p class="breadcrumb"><span class="text-danger">Location</span></p>
                                                                         <div class="card-body">
@@ -66,7 +107,7 @@
                                                                         <p class="breadcrumb"><span class="text-danger">Background Location</span></p>
                                                                         <div class="card-body">
                                                                                 <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
-                                                                                <p class="card-text">If permission is granted user can enable the messaging location. Messages and notification will only be forwarded/transferred if the user device in within the radius of 150 Meters from this location. App makes use of Google’s geofence api to track whether user has reached or exited from this location.</p>
+                                                                                <p class="card-text">If permission is granted user can enable the messaging location. Messages and notification will only be forwarded if the user device in within the radius of 150 Meters from this location. App makes use of Google’s geofence api to track whether user has reached or exited from this location.</p>
                                                                         </div>
                                                                 </div>
                                                         </div>
@@ -96,8 +137,8 @@
                                                 Information collected may be used for the following purposes:
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
-                                                        <p class="breadcrumb">Notification Forwarding:</p>
-                                                        <p class="mx-3">App use the email address you provide to forward notifications from your device.</p>
+                                                        <p class="breadcrumb">SMS and Notification Forwarding:</p>
+                                                        <p class="mx-3">App use the email address or phone number you provide to forward SMS messages and notifications from your device.</p>
                                                 </div>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">Improvement and Analysis:</p>
@@ -111,7 +152,7 @@
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                        App don’t collect or transmit any user information. Details inputted by user regarding group, notification filter, and work details will be saved locally in your device. If you choose to uninstall the app or clear cache from app, these collected information will be lost permanently. I employ reasonable measures to safeguard the information you provide against unauthorized access, disclosure, alteration, or destruction. Nevertheless, no method of transmission over the internet while forwarding your notification or electronic storage is 100% secure, and I cannot guarantee the absolute security of your data.
+                                                        App don’t collect or transmit any user information. Details inputted by user regarding group, message filter, work details, and preferred messaging sim will be saved locally in your device. If you choose to uninstall the app or clear cache from app, these collected information will be lost permanently. I employ reasonable measures to safeguard the information you provide against unauthorized access, disclosure, alteration, or destruction. Nevertheless, no method of transmission over the internet while forwarding your message/notification or electronic storage is 100% secure, and I cannot guarantee the absolute security of your data.
                                                 </p>
                                         </div>
                                 </div>
