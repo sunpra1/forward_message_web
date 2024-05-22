@@ -11,11 +11,11 @@
                                                 <img src="{{ URL('images/notification_forward_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
-                                        <p class="lead">Forward Notification i.e. SMS and/or Notification Forwarding App</p>
+                                        <p class="lead">Forward Notification i.e. Notification Forwarding App</p>
                                 
                                         <hr class="my-4">
                                         <blockquote class="blockquote">
-                                        <p>This application operates by forwarding/transferring messages and notifications received on the device through either SMS or logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming SMS  and notifications on user device. If you opt to forward/transfer these incoming messages to other phone numbers, please be aware that your carrier may impose charges based on their usage policy for sending SMS to these phone numbers. Further, if you choose to forward/transfer these incoming messages and notifications via email, you have the flexibility to configure the email details. Moreover, the app provides you with control over the content and timing for forward/transfer through its settings.
+                                        <p>This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
                                         </p>
                                         <div class="d-flex flex-row-reverse">
                                                 <a class="btn btn-link mr-2" href="{{URL('privacy-policy/notification-forward')}}">View privacy policy <i class="fas fa-angle-right"></i></a>
