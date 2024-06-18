@@ -12,11 +12,11 @@
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
                                         <p class="lead">Forward Notification i.e. Notification Forwarding App</p>
-                                
                                         <hr class="my-4">
                                         <blockquote class="blockquote">
                                         <p>This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
                                         </p>
+                                        </blockquote>
                                         <div class="d-flex flex-row-reverse">
                                                 <a class="btn btn-link mr-2" href="{{URL('privacy-policy/notification-forward')}}">View privacy policy <i class="fas fa-angle-right"></i></a>
                                         </div>
