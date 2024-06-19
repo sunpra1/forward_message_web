@@ -9,6 +9,7 @@
                                                 <img src="{{ URL('images/notification_forward_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
+                                        <p class="lead mt-3">About:</p>
                                         <p class="mt-2">This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
                                         </p>
                                         <hr class="my-4">
@@ -22,11 +23,11 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">1. Policy Statement for Google Send Mail Scope Access</h5>
+                                <h5 class="mt-0 mb-1">1. Privacy Policy for Accessing Gmail Send Mail Scope Using Google OAuth2.</h5>
                                 <div class="mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                This policy outlines how our application accesses, uses, stores, and shares Google user data when granted access to the Google Send Mail scope.
+                                                This policy outlines how our application accesses, uses, stores, and shares Google user data when granted access to the Google Send Mail scope Using Google OAuth2.
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">Information App Access:</p>
