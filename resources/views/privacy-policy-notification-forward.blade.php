@@ -46,7 +46,7 @@
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">Data Storage and Security:</p>
                                                         <div class="mx-3">
-                                                                <p class="mx-3">We take your privacy seriously and employ appropriate security measures to protect your information. App:</p>
+                                                                <p class="mx-3">App takes your privacy seriously and employ appropriate security measures to protect your information. App:</p>
                                                                 <p class="text-info mx-4">Do not store your emails or any other content from your Gmail account on our servers.</p>
                                                                 <p class="text-info mx-4">Use secure protocols to transmit data and ensure that your information is protected during transmission.</p>
                                                         </div>
@@ -54,7 +54,7 @@
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb"> Data Sharing:</p>
                                                         <div class="mx-3">
-                                                                <p class="mx-3">We do not share your Google user data with third parties except:</p>
+                                                                <p class="mx-3">App do not share your Google user data with third parties except:</p>
                                                                 <p class="text-info mx-4">As necessary to comply with applicable laws, regulations, or legal processes.</p>
                                                                 <p class="text-info mx-4">To protect the rights, property, or safety of our users or the public.</p>
                                                         </div>
