@@ -31,32 +31,54 @@
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">Information App Access:</p>
                                                         <div class="mx-3">
-                                                                <p class="mx-3">When you use this app, it request access to your Gmail account to send emails on your behalf. This access is limited to the Gmail Send Mail Scope, which allows app to:</p>
-                                                                <p class="text-info mx-4">Compose and send emails from your Gmail account.</p>
+                                                            <p class="mx-3">When you use this app, it request access to your Gmail account to send emails on your behalf. This access is limited to the Gmail Send Mail Scope, which allows app to:</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p class="text-info mx-4">Compose and send emails from your Gmail account.</p>
+                                                                </li>
+                                                            </ul>
                                                         </div>
                                                 </div>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">How App Use Your Information:</p>
                                                         <div class="mx-3">
-                                                                <p class="mx-3">App use the information accessed through the Gmail Send Mail Scope solely for the purpose of sending emails as per your instructions. Specifically, app:</p>
-                                                                <p class="text-info mx-4">Send emails of notification details that your device receives through this application.</p>
-                                                                <p class="text-info mx-4">Use your Gmail account's "send" functionality to ensure the emails appear as sent from your Gmail account.</p>
+                                                            <p class="mx-3">App use the information accessed through the Gmail Send Mail Scope solely for the purpose of sending emails as per your instructions. Specifically, app:</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p class="text-info mx-4">Send emails of notification details that your device receives through this application.</p>
+                                                                </li>
+                                                                <li>
+                                                                   <p class="text-info mx-4">Use your Gmail account's "send" functionality to ensure the emails appear as sent from your Gmail account.</p>
+                                                                </li>
+                                                            </ul>
                                                         </div>
                                                 </div>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb">Data Storage and Security:</p>
                                                         <div class="mx-3">
-                                                                <p class="mx-3">App takes your privacy seriously and employ appropriate security measures to protect your information. App:</p>
-                                                                <p class="text-info mx-4">Do not store your emails or any other content from your Gmail account on our servers.</p>
-                                                                <p class="text-info mx-4">Use secure protocols to transmit data and ensure that your information is protected during transmission.</p>
+                                                            <p class="mx-3">App takes your privacy seriously and employ appropriate security measures to protect your information. App:</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p class="text-info mx-4">Do not store your emails or any other content from your Gmail account on our servers.</p>
+                                                                </li>
+                                                                <li>
+                                                                   <p class="text-info mx-4">Use secure protocols to transmit data and ensure that your information is protected during transmission.</p>
+                                                                </li>
+                                                            </ul>
                                                         </div>
                                                 </div>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p class="breadcrumb"> Data Sharing:</p>
                                                         <div class="mx-3">
-                                                                <p class="mx-3">App do not share your Google user data with third parties except:</p>
-                                                                <p class="text-info mx-4">As necessary to comply with applicable laws, regulations, or legal processes.</p>
-                                                                <p class="text-info mx-4">To protect the rights, property, or safety of our users or the public.</p>
+                                                            <p class="mx-3">App do not share your Google user data with third parties except:</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p class="text-info mx-4">As necessary to comply with applicable laws, regulations, or legal processes.</p>
+                                                                </li>
+                                                                <li>
+                                                                   <p class="text-info mx-4">To protect the rights, property, or safety of our users or the public.</p>
+                                                                </li>
+                                                            </ul>
                                                         </div>
                                                 </div>
                                         </div>
