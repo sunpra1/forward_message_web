@@ -17,7 +17,6 @@ class UserController extends Controller
             'password' => 'required',
             'confirm_password' => 'required|same:password',
         ]);
-
         if($validator->fails()){
             return response($validator->errors(), 400);
         }else{

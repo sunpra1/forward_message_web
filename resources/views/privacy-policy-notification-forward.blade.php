@@ -9,11 +9,11 @@
                                                 <img src="{{ URL('images/notification_forward_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
-                                        <p class="lead">Privacy Policy for Notification Forward i.e. Notification Forwarding App</p>
-                                        <p>This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
+                                        <p class="mt-2">This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
                                         </p>
-                                        <p class="lead">Last Updated: 2024.04.01</p>
                                         <hr class="my-4">
+                                        <p class="lead">Privacy Policy for Notification Forward i.e. Notification Forwarding App</p>
+                                        <p class="lead">Last Updated: 2024.06.18</p>
                                         <blockquote class="blockquote">
                                                 <p>This Privacy Policy outlines how Notification Forward collects, uses, and protects information gathered from users of our Notification Forwarding App (Notification Forward). By using the App, you agree to the practices described in this Privacy Policy.
                                                 </p>
@@ -22,11 +22,52 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">1. Information App Collects</h5>
+                                <h5 class="mt-0 mb-1">1. Policy Statement for Google Send Mail Scope Access</h5>
                                 <div class="mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                1.1 : Information You Provide
+                                                This policy outlines how our application accesses, uses, stores, and shares Google user data when granted access to the Google Send Mail scope.
+                                                </p>
+                                                <div class="list-group-item list-group-item-action">
+                                                        <p class="breadcrumb">Information App Access:</p>
+                                                        <div class="mx-3">
+                                                                <p class="mx-3">When you use this app, it request access to your Gmail account to send emails on your behalf. This access is limited to the Gmail Send Mail Scope, which allows app to:</p>
+                                                                <p class="text-info mx-4">Compose and send emails from your Gmail account.</p>
+                                                        </div>
+                                                </div>
+                                                <div class="list-group-item list-group-item-action">
+                                                        <p class="breadcrumb">How App Use Your Information:</p>
+                                                        <div class="mx-3">
+                                                                <p class="mx-3">App use the information accessed through the Gmail Send Mail Scope solely for the purpose of sending emails as per your instructions. Specifically, app:</p>
+                                                                <p class="text-info mx-4">Send emails of notification details that your device receives through this application.</p>
+                                                                <p class="text-info mx-4">Use your Gmail account's "send" functionality to ensure the emails appear as sent from your Gmail account.</p>
+                                                        </div>
+                                                </div>
+                                                <div class="list-group-item list-group-item-action">
+                                                        <p class="breadcrumb">Data Storage and Security:</p>
+                                                        <div class="mx-3">
+                                                                <p class="mx-3">We take your privacy seriously and employ appropriate security measures to protect your information. App:</p>
+                                                                <p class="text-info mx-4">Do not store your emails or any other content from your Gmail account on our servers.</p>
+                                                                <p class="text-info mx-4">Use secure protocols to transmit data and ensure that your information is protected during transmission.</p>
+                                                        </div>
+                                                </div>
+                                                <div class="list-group-item list-group-item-action">
+                                                        <p class="breadcrumb"> Data Sharing:</p>
+                                                        <div class="mx-3">
+                                                                <p class="mx-3">We do not share your Google user data with third parties except:</p>
+                                                                <p class="text-info mx-4">As necessary to comply with applicable laws, regulations, or legal processes.</p>
+                                                                <p class="text-info mx-4">To protect the rights, property, or safety of our users or the public.</p>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 mt-4">
+                                <h5 class="mt-0 mb-1">2. Information App Collects</h5>
+                                <div class="mt-3">
+                                        <div class="list-group">
+                                                <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
+                                                2.1 : Information You Provide
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p>App may collect and store the following information that you provide us when you use the App:</p>
@@ -84,7 +125,7 @@
                                                         </div>
                                                 </div>
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                1.2 : Automatically Collected Information
+                                                2.2 : Automatically Collected Information
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p>App may also collect certain information automatically when you use it, which may include:</p>
@@ -101,7 +142,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">2. How I Use Your Information</h5>
+                               <h5 class="mt-0 mb-1">3. How I Use Your Information</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -119,7 +160,7 @@
                                 </div>
                         </div>
                          <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">3. Data Security</h5>
+                               <h5 class="mt-0 mb-1">4. Data Security</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -129,7 +170,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">4. Sharing Your Information</h5>
+                               <h5 class="mt-0 mb-1">5. Sharing Your Information</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -151,7 +192,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">5. Your Choices</h5>
+                                <h5 class="mt-0 mb-1">6. Your Choices</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -161,7 +202,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">6. Changes to this Privacy Policy</h5>
+                                <h5 class="mt-0 mb-1">7. Changes to this Privacy Policy</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -171,7 +212,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">7. Contact Us</h5>
+                                <h5 class="mt-0 mb-1">8. Contact Us</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">

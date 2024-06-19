@@ -4,6 +4,7 @@ use App\Http\Controllers\Api\MemoryController;
 use App\Http\Controllers\Api\MobileApplicationController;
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,3 +36,5 @@ Route::prefix("/user")->group(function(){
 });
 
 Route::post('/getPaymentDetail', [MobileApplicationController::class, "getPaymentDetail"]);
+
+Route::post('/test', function(Request $request){ return Response($request->all()); });

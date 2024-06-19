@@ -101,9 +101,9 @@ class MemoryController extends Controller
          if(isset($myMemory)){
             Storage::delete('public/images/memories/'.$myMemory->image);
             if ($myMemory->delete()) {
-                return response(["message" => "Memory of" . $myMemory->title . " deleted successfully."]);
+                return response(["message" => "Memory of \"" . $myMemory->title . "\" deleted successfully."]);
             }else{
-                return response(["message" => "Memory of" . $myMemory->title . " couldn't be deleted."], 500);
+                return response(["message" => "Memory of \"" . $myMemory->title . "\" couldn't be deleted."], 500);
             }
         }else{
             return response(["message" => "Memory not found."], 500);
