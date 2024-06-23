@@ -6,7 +6,7 @@
                 <div class="col-sm-12 col-md-12">
                         <div class="my-3">
                                 <div class="jumbotron">
-                                        <p class="lead"><span class="text-primary lead mr-2">Last Updated</span> June 21, 2024</p>
+                                        <p class="lead"><span class="text-primary lead mr-2">Last Updated</span> June 23, 2024</p>
                                         <div class="d-flex flex-row align-items-center">
                                                 <img src="{{ URL('images/notification_forward_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
                                                 <h1 class="ml-3">Notification Forward</h1>

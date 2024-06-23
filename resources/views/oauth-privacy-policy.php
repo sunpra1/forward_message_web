@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p>Effective date: June 21, 2024</p>
+    <p>Effective date: June 23, 2024</p>
     
     <h2>Introduction</h2>
     <p>Welcome to Example. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
@@ -26,11 +26,17 @@
         <li>Use your Gmail account's "send" functionality to ensure the emails appear as sent from your Gmail account.</li>
     </ul>
     
-    <h2>Data Security</h2>
+    <h2>Data Storage and Its Security</h2>
     <p>App takes your privacy seriously and employ appropriate security measures to protect your information. App:</p>
      <ul>
-        <li>Do not store your emails or any other content from your Gmail account on our servers.</li>
-        <li>Use secure protocols to transmit data and ensure that your information is protected during transmission.</li>
+        <li>Do not store information received from Google APIs on our servers and is stored solely on the user’s device.</li>
+        <li>If user choosees to uninstall the app or clear cache from app, these collected information will be lost permanently.</li>
+    </ul>
+
+    <h2>Limited Use</h2>
+    <ul>
+        <li>Information received from Google APIs will adhere to Google API Services User Data Policy, including the Limited Use requirements.</li>
+        <li>Retrieved data is stored solely on the user’s device and is utilized only for sending notification details via email when received.</li>
     </ul>
 
     <h2>Data Sharing</h2>

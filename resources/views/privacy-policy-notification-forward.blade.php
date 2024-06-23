@@ -14,7 +14,7 @@
                                         </p>
                                         <hr class="my-4">
                                         <p class="lead">Privacy Policy for Notification Forward i.e. Notification Forwarding App</p>
-                                        <p class="lead">Last Updated: 2024.06.18</p>
+                                        <p class="lead">Last Updated: June 23, 2024</p>
                                         <blockquote class="blockquote">
                                                 <p>This Privacy Policy outlines how Notification Forward collects, uses, and protects information gathered from users of our Notification Forwarding App (Notification Forward). By using the App, you agree to the practices described in this Privacy Policy.
                                                 </p>
@@ -187,7 +187,7 @@
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                        App don’t collect or transmit any user information. Details inputted by user regarding group, message filter, work details, and preferred messaging sim will be saved locally in your device. If you choose to uninstall the app or clear cache from app, these collected information will be lost permanently. I employ reasonable measures to safeguard the information you provide against unauthorized access, disclosure, alteration, or destruction. Nevertheless, no method of transmission over the internet while forwarding your notification or electronic storage is 100% secure, and I cannot guarantee the absolute security of your data.
+                                                        App don’t collect or transmit any user information. Details inputted by user regarding group, message filter, and work details will be saved locally in your device. If you choose to uninstall the app or clear cache from app, these collected information will be lost permanently. I employ reasonable measures to safeguard the information you provide against unauthorized access, disclosure, alteration, or destruction. Nevertheless, no method of transmission over the internet while forwarding your notification or electronic storage is 100% secure, and I cannot guarantee the absolute security of your data.
                                                 </p>
                                         </div>
                                 </div>
