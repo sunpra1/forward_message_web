@@ -10,7 +10,8 @@
     <p>Effective date: June 23, 2024</p>
     
     <h2>Introduction</h2>
-    <p>Welcome to Example. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
+    <p>Welcome to Notification Forward App. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you use Notification Forward app and tell you about your privacy rights and how the law protects you.</p>
+    <p>When Notification Forward request's access to Google user data it adheres to <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>.</p>
     <p>Contact Information: <a href="mailto:dev.sunpra@gmail.com">dev.sunpra@gmail.com</a></p>
     
     <h2>Data Collection</h2>

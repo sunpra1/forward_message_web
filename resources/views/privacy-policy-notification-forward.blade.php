@@ -23,74 +23,11 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">1. Privacy Policy for Accessing Gmail Send Mail Scope Using Google OAuth2.</h5>
+                                <h5 class="mt-0 mb-1">1. Information App Collects</h5>
                                 <div class="mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                This policy outlines how our application accesses, uses, stores, and shares Google user data when granted access to the Google Send Mail scope Using Google OAuth2.
-                                                </p>
-                                                <div class="list-group-item list-group-item-action">
-                                                        <p class="breadcrumb">Information App Access:</p>
-                                                        <div class="mx-3">
-                                                            <p class="mx-3">When you use this app, it request access to your Gmail account to send emails on your behalf. This access is limited to the Gmail Send Mail Scope, which allows app to:</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p class="text-info mx-4">Compose and send emails from your Gmail account.</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                </div>
-                                                <div class="list-group-item list-group-item-action">
-                                                        <p class="breadcrumb">How App Use Your Information:</p>
-                                                        <div class="mx-3">
-                                                            <p class="mx-3">App use the information accessed through the Gmail Send Mail Scope solely for the purpose of sending emails as per your instructions. Specifically, app:</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p class="text-info mx-4">Send emails of notification details that your device receives through this application.</p>
-                                                                </li>
-                                                                <li>
-                                                                   <p class="text-info mx-4">Use your Gmail account's "send" functionality to ensure the emails appear as sent from your Gmail account.</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                </div>
-                                                <div class="list-group-item list-group-item-action">
-                                                        <p class="breadcrumb">Data Storage and Security:</p>
-                                                        <div class="mx-3">
-                                                            <p class="mx-3">App takes your privacy seriously and employ appropriate security measures to protect your information. App:</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p class="text-info mx-4">Do not store your emails or any other content from your Gmail account on our servers.</p>
-                                                                </li>
-                                                                <li>
-                                                                   <p class="text-info mx-4">Use secure protocols to transmit data and ensure that your information is protected during transmission.</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                </div>
-                                                <div class="list-group-item list-group-item-action">
-                                                        <p class="breadcrumb"> Data Sharing:</p>
-                                                        <div class="mx-3">
-                                                            <p class="mx-3">App do not share your Google user data with third parties except:</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p class="text-info mx-4">As necessary to comply with applicable laws, regulations, or legal processes.</p>
-                                                                </li>
-                                                                <li>
-                                                                   <p class="text-info mx-4">To protect the rights, property, or safety of our users or the public.</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">2. Information App Collects</h5>
-                                <div class="mt-3">
-                                        <div class="list-group">
-                                                <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                2.1 : Information You Provide
+                                                1.1 : Information You Provide
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p>App may collect and store the following information that you provide us when you use the App:</p>
@@ -148,7 +85,7 @@
                                                         </div>
                                                 </div>
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                2.2 : Automatically Collected Information
+                                                1.2 : Automatically Collected Information
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p>App may also collect certain information automatically when you use it, which may include:</p>
@@ -165,7 +102,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">3. How I Use Your Information</h5>
+                               <h5 class="mt-0 mb-1">2. How I Use Your Information</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -183,7 +120,7 @@
                                 </div>
                         </div>
                          <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">4. Data Security</h5>
+                               <h5 class="mt-0 mb-1">3. Data Security</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -193,7 +130,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">5. Sharing Your Information</h5>
+                               <h5 class="mt-0 mb-1">4. Sharing Your Information</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -215,7 +152,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">6. Your Choices</h5>
+                                <h5 class="mt-0 mb-1">5. Your Choices</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -225,7 +162,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">7. Changes to this Privacy Policy</h5>
+                                <h5 class="mt-0 mb-1">6. Changes to this Privacy Policy</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -235,7 +172,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">8. Contact Us</h5>
+                                <h5 class="mt-0 mb-1">7. Contact Us</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">

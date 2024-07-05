@@ -15,7 +15,7 @@ class MobileApplicationController extends Controller
     {
         $validator = Validator::make(
             $request->all(),
-            ['amount' => 'required|numeric|min:500'],
+            ['amount' => 'required|numeric|min:50'],
             ['isDebug' => 'required|boolean']
         );
 
