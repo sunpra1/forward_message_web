@@ -42,6 +42,13 @@
                                                                 <br><span class="text-info">App respects your privacy and is committed for safeguarding your data. App does not share this information with third parties, and it is used solely to enhance your app experience.</span>
                                                         </p>
                                                         <div class="mx-3">
+                                                            <div class="w-100 card">
+                                                                        <p class="breadcrumb"><span class="text-danger">Read Call Log, Read Phone State, and Read Contacts</span></p>
+                                                                        <div class="card-body">
+                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
+                                                                                <p class="card-text">To be able to Read Missed Call this app will require permission to "Read Phone State", "Read Call Log" and "Read Contacts". Using "Read Phone State" permission app will be able to determine when ever your device receives a phone call. Additionally, by using the "Read Call Log" and "Read Contacts" permissions, the app will be able to read the call logs on your device to determine who has missed call you and whether that number is in your contacts.</p>
+                                                                        </div>
+                                                                </div>
                                                                 <div class="w-100 card">
                                                                         <p class="breadcrumb"><span class="text-danger">Query All Packages</span></p>
                                                                         <div class="card-body">
