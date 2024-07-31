@@ -14,7 +14,7 @@
                                         <p class="lead">Forward Notification i.e. Notification Forwarding App</p>
                                         <hr class="my-4">
                                         <blockquote class="blockquote">
-                                        <p>This application operates by forwarding/transferring notifications received on the device through logged in Google Account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device and makes use of the Gmail Send Mail Scope of logged-in Google Account for the purpose of forwarding these notifications to provided email. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
+                                        <p class="mt-2">This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications, read phone state, and call logs on user device. For the purpose of forwarding these incoming notifications and missed calls via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
                                         </p>
                                         </blockquote>
                                         <div class="d-flex flex-row-reverse">

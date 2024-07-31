@@ -10,11 +10,11 @@
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
                                         <p class="lead mt-3">About:</p>
-                                        <p class="mt-2">This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications on user device. For the purpose of forwarding these incoming notifications via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
+                                        <p class="mt-2">This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications, read phone state, and call logs on user device. For the purpose of forwarding these incoming notifications and missed calls via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
                                         </p>
                                         <hr class="my-4">
                                         <p class="lead">Privacy Policy for Notification Forward i.e. Notification Forwarding App</p>
-                                        <p class="lead">Last Updated: June 23, 2024</p>
+                                        <p class="lead">Last Updated: July 31, 2024</p>
                                         <blockquote class="blockquote">
                                                 <p>This Privacy Policy outlines how Notification Forward collects, uses, and protects information gathered from users of our Notification Forwarding App (Notification Forward). By using the App, you agree to the practices described in this Privacy Policy.
                                                 </p>
