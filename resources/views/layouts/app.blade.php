@@ -34,6 +34,7 @@
               </a>
               <div class="dropdown-menu py-0">
                 <a class="dropdown-item" href="{{URL('privacy-policy/forward-message')}}">Notification Forward</a>
+                <a class="dropdown-item" href="{{URL('privacy-policy/mouse-and-keyboard')}}">Mouse & Keyboard</a>
               </div>
             </li>
           </ul>

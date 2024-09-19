@@ -17,6 +17,9 @@ Route::prefix('privacy-policy')->group(function () {
     Route::get('/forward-message', function () {
         return view('privacy-policy-forward-message');
     });
+    Route::get('/mouse-and-keyboard', function () {
+        return view('privacy-policy-mouse-and-keyboard');
+    });
 });
 
 Route::get('/', function () {
