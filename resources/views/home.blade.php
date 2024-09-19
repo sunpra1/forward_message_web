@@ -6,15 +6,17 @@
                 <div class="col-sm-12 col-md-6">
                         <div class="my-3">
                                 <div class="jumbotron">
-                                        <p class="lead"><span class="text-primary lead mr-2">Last Updated</span> July 31, 2024</p>
+                                        <p class="lead"><span class="text-primary lead mr-2">Last Updated</span> Aug 01, 2024</p>
                                         <div class="d-flex flex-row align-items-center">
                                                 <img src="{{ URL('images/notification_forward_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
-                                        <p class="lead">Forward Notification i.e. Notification Forwarding App</p>
+                                        <p class="lead">Forward Notification i.e. Device Notification and Missed Call Details Forwarding App</p>
                                         <hr class="my-4">
                                         <blockquote class="blockquote">
-                                        <p class="mt-2">This application operates by forwarding/transferring notifications received on the device through logged in Gmail account or a provided SMTP server details. To achieve this, the app reads incoming notifications, read phone state, and call logs on user device. For the purpose of forwarding these incoming notifications and missed calls via email, app provides the users with option to configure the mailing details. Moreover, the app provides users with control over the content and timing of forwarding through its settings.
+                                         <p class="mt-2">Notification Forward lets you automate your smartphone by forwarding notifications or missed call alerts to your preferred email. 
+                                        If you have two phones, such as a work phone and a personal phone, you can easily sync your personal phone notifications and missed calls to your work email address, and vice versa. 
+                                        It can perform these tasks based on configured contexts such as mailing details, filters, time, and location. To achieve this, the app reads incoming notifications, read phone state, call logs, and contacts on user device.
                                         </p>
                                         </blockquote>
                                         <div class="d-flex flex-row-reverse">
