@@ -49,6 +49,30 @@
                                 </div>
                         </div>
                 </div>
+                <div class="col-sm-12 col-md-6">
+                        <div class="my-3">
+                                <div class="jumbotron">
+                                        <p class="lead"><span class="text-primary lead mr-2">Last Updated</span> November 01, 2025</p>
+                                        <div class="d-flex flex-row align-items-center">
+                                                <img src="{{ URL('images/api_client_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
+                                                <h1 class="ml-3">Mouse & Keyboard</h1>
+                                        </div>
+                                        <p class="lead">
+                                                An easy-to-use API Client app for testing REST APIs.
+                                        </p>
+                                        <hr class="my-4">
+                                        <blockquote class="blockquote">
+                                        <p class="mt-2">
+                                                An easy-to-use API Client app for testing REST APIs. Quickly build and send HTTP requests with custom parameters. 
+                                                View detailed responses including status codes and body.Ideal for debugging, learning, and experimenting with APIs.
+                                        </p>
+                                        </blockquote>
+                                        <div class="d-flex flex-row-reverse">
+                                                <a class="btn btn-link mr-2" href="{{URL('privacy-policy/api-client')}}">View privacy policy <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
         </div>
         
 @endsection

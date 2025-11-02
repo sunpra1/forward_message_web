@@ -20,6 +20,9 @@ Route::prefix('privacy-policy')->group(function () {
     Route::get('/mouse-and-keyboard', function () {
         return view('privacy-policy-mouse-and-keyboard');
     });
+    Route::get('/api-client', function () {
+        return view('privacy-policy-api-client');
+    });
 });
 
 Route::get('/', function () {
