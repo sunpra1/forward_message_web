@@ -6,20 +6,17 @@
                         <div class="col-sm-12">
                                 <div class="jumbotron mt-5">
                                         <div class="d-flex flex-row align-items-center">
-                                                <img src="{{ URL('images/mouse_and_keyboard_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
-                                                <h1 class="ml-3">Mouse & Keyboard</h1>
+                                                <img src="{{ URL('images/json_lab_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
+                                                <h1 class="ml-3">JSON Lab</h1>
                                         </div>
                                         <p class="lead mt-3">About:</p>
                                         <p class="mt-2">
-                                                Transform your device into a virtual Bluetooth keyboard and mouse – no extra bloatware!
-                                                Turn your Android device into a remote keyboard and mouse for your smartphone, tablet, computer, or Android TV.
-                                        </p>
+                                                JSON Viewer and Editor
                                         <hr class="my-4">
-                                        <p class="lead">Privacy Policy for Mouse & Keyboard</p>
-                                        <p class="lead">Last Updated: Sep 01, 2024</p>
+                                        <p class="lead">Privacy Policy for JSON Lab</p>
+                                        <p class="lead">Last Updated: Nov 08, 2025</p>
                                         <blockquote class="blockquote">
-                                                <p>This Privacy Policy outlines how Mouse & Keyboard collects, uses, and protects information gathered from users. By using the App, you agree to the practices described in this Privacy Policy.
-                                                </p>
+                                                <p>Create, edit, and format JSON files easily with a simple and powerful editor.</p>
                                         </blockquote>
                                         </div>
                                 </div>
@@ -29,53 +26,7 @@
                                 <div class="mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                1.1 : Permission
-                                                </p>
-                                                <div class="list-group-item list-group-item-action">
-                                                        <p>The app may request access to these permissions and device features necessary for controlling your device's Bluetooth.
-                                                                <br><span class="text-info">App respects your privacy and is committed for safeguarding your data. App does not share this information with third parties, and it is used solely to enhance your app experience.</span>
-                                                        </p>
-                                                </div>
-                                               
-                                                <div class="list-group-item list-group-item-action">
-                                                        <div class="mx-3">
-                                                                <div class="w-100 card">
-                                                                        <p class="breadcrumb"><span class="text-danger">Bluetooth, Bluetooth Advertise, Bluetooth Connect, and Bluetooth Scan</span></p>
-                                                                        <div class="card-body">
-                                                                                <p class="card-title">Is Mandatory : <span class="text-success">YES</span></p>
-                                                                                <p class="card-text">
-                                                                                        With these permissions, the app can connect to a remote host device and transmit user inputs, such as mouse movements and keyboard commands, to the host.
-                                                                                </p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="w-100 card mt-3">
-                                                                        <p class="breadcrumb"><span class="text-danger">Location</span></p>
-                                                                        <div class="card-body">
-                                                                                <p class="card-title">Is Mandatory : <span class="text-success">YES</span></p>
-                                                                                <p class="card-text">
-                                                                                        This location permission is used by the Bluetooth hardware to detect and identify nearby devices.
-                                                                                </p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="w-100 card mt-3">
-                                                                        <p class="breadcrumb"><span class="text-danger">Wake Loack</span></p>
-                                                                        <div class="card-body">
-                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
-                                                                                <p class="card-text">If permission is granted, the app will be able to acquire a scroll lock to prevent the screen from turning off.</p>
-                                                                        </div>
-                                                                </div>
-
-                                                                <div class="w-100 card mt-3">
-                                                                        <p class="breadcrumb"><span class="text-danger">Vibrate</span></p>
-                                                                        <div class="card-body">
-                                                                                <p class="card-title">Is Mandatory : <span class="text-success">NO</span></p>
-                                                                                <p class="card-text">If permission is granted, the app will provide haptic feedback during interactions.</p>
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                                <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
-                                                1.2 : Automatically Collected Information
+                                                1.1 : Automatically Collected Information
                                                 </p>
                                                 <div class="list-group-item list-group-item-action">
                                                         <p>App may also collect certain information automatically when you use it, which may include:</p>

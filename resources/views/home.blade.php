@@ -73,6 +73,29 @@
                                 </div>
                         </div>
                 </div>
+                <div class="col-sm-12 col-md-6">
+                        <div class="my-3">
+                                <div class="jumbotron">
+                                        <p class="lead"><span class="text-primary lead mr-2">Last Updated</span> November 08, 2025</p>
+                                        <div class="d-flex flex-row align-items-center">
+                                                <img src="{{ URL('images/json_lab_icon.png') }}" style="height: 84px; width: 84px;" alt="" class="img-thumbnail rounded-circle p-0 m-0">
+                                                <h1 class="ml-3">JSON Lab</h1>
+                                        </div>
+                                        <p class="lead">
+                                               JSON Viewer and Editor
+                                        </p>
+                                        <hr class="my-4">
+                                        <blockquote class="blockquote">
+                                        <p class="mt-2">
+                                                Create, edit, and format JSON files easily with a simple and powerful editor.
+                                        </p>
+                                        </blockquote>
+                                        <div class="d-flex flex-row-reverse">
+                                                <a class="btn btn-link mr-2" href="{{URL('privacy-policy/json-lab')}}">View privacy policy <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
         </div>
         
 @endsection

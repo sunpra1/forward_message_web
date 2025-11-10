@@ -23,6 +23,9 @@ Route::prefix('privacy-policy')->group(function () {
     Route::get('/api-client', function () {
         return view('privacy-policy-api-client');
     });
+    Route::get('/json-lab', function () {
+        return view('privacy-policy-json-lab');
+    });
 });
 
 Route::get('/', function () {

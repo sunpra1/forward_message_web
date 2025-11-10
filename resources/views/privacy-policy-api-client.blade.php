@@ -75,7 +75,7 @@
                                 </div>
                         </div>
                          <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">3. Data Security</h5>
+                               <h5 class="mt-0 mb-1">2. Data Security</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -85,7 +85,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                               <h5 class="mt-0 mb-1">4. Sharing Your Information</h5>
+                               <h5 class="mt-0 mb-1">3. Sharing Your Information</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -107,7 +107,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">5. Your Choices</h5>
+                                <h5 class="mt-0 mb-1">4. Your Choices</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -117,7 +117,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">6. Changes to this Privacy Policy</h5>
+                                <h5 class="mt-0 mb-1">5. Changes to this Privacy Policy</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
@@ -127,7 +127,7 @@
                                 </div>
                         </div>
                         <div class="col-sm-12 mt-4">
-                                <h5 class="mt-0 mb-1">7. Contact Us</h5>
+                                <h5 class="mt-0 mb-1">6. Contact Us</h5>
                                 <div class="col-sm-12 mt-3">
                                         <div class="list-group">
                                                 <p class="list-group-item list-group-item-action bg-secondary text-light my-0">
