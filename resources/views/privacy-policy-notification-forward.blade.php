@@ -10,13 +10,11 @@
                                                 <h1 class="ml-3">Notification Forward</h1>
                                         </div>
                                         <p class="lead mt-3">About:</p>
-                                        <p class="mt-2">Notification Forward lets you automate your smartphone by forwarding notifications or missed call alerts to your preferred email. 
-                                        If you have two phones, such as a work phone and a personal phone, you can easily sync your personal phone notifications and missed calls to your work email address, and vice versa. 
-                                        It can perform these tasks based on configured contexts such as mailing details, filters, time, and location. To achieve this, the app reads incoming notifications, read phone state, call logs, and contacts on user device.
+                                        <p class="mt-2">Notification Forward lets you automate your smartphone by forwarding notifications. If you have two phones, such as a work phone and a personal phone, you can easily sync your personal phone notifications to your work email address, and vice versa. It can perform these tasks based on configured contexts such as mailing details, filters, time, and location. To achieve this, the app reads incoming notifications on user device. To forward notification details to email App makes use of Gmail's "Send Mail" Scope.
                                         </p>
                                         <hr class="my-4">
-                                        <p class="lead">Privacy Policy for Notification Forward i.e. Device Notification and Missed Call Details Forwarding App</p>
-                                        <p class="lead">Last Updated: Aug 01, 2024</p>
+                                        <p class="lead">Privacy Policy for Notification Forward i.e. Notification Forwarding App</p>
+                                        <p class="lead">Last Updated: Jan 11, 2026</p>
                                         <blockquote class="blockquote">
                                                 <p>This Privacy Policy outlines how Notification Forward collects, uses, and protects information gathered from users of Notification Forward App. By using the App, you agree to the practices described in this Privacy Policy.
                                                 </p>
