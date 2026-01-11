@@ -27,9 +27,16 @@
         <li>Use your Gmail account's "send" functionality to ensure the emails appear as sent from your Gmail account.</li>
     </ul>
     
-    <h2>Data Storage and Its Security</h2>
-    <p>App takes your privacy seriously and employ appropriate security measures to protect your information. App:</p>
+    <h2>Data Protection and Security Measures for Sensitive User Data</h2>
+    <p>App takes the protection of Google user data seriously and implement appropriate technical and organizational measures to safeguard sensitive information.</p>
      <ul>
+        <li>All data exchanged between the app and Google services is transmitted over secure, encrypted connections (HTTPS/TLS) to prevent unauthorized access.</li>
+        <li>Sensitive data, including Gmail-related information, is protected using industry-standard encryption during transmission.</li>
+        <li>Access to user data is restricted to authorized components of the application and is used strictly for the app’s intended functionality.</li>
+        <li>Google user data obtained through the Gmail Send Mail scope is used solely to send emails on behalf of the user and is never sold, shared, or used for advertising purposes.</li>
+        <li>Application only request and process the minimum amount of data necessary to provide app functionality.</li>
+        <li>The app does not store Gmail message content or credentials beyond what is required for the email-sending process.</li>
+        <li>Security practices are regularly reviewed and updated to protect user data against unauthorized access, alteration, disclosure, or destruction.</li>
         <li>Do not store information received from Google APIs on our servers and is stored solely on the user’s device.</li>
         <li>If user choosees to uninstall the app or clear cache from app, these collected information will be lost permanently.</li>
     </ul>
