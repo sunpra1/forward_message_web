@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p>Effective date: June 23, 2024</p>
+    <p>Effective date: January 11, 2026</p>
     
     <h2>Introduction</h2>
     <p>Welcome to Notification Forward App. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you use Notification Forward app and tell you about your privacy rights and how the law protects you.</p>
@@ -66,7 +66,7 @@
     </ul>
     
     <h2>Changes to the Privacy Policy</h2>
-    <p>We keep our privacy policy under regular review. This version was last updated on June 21, 2024. Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by email.</p>
+    <p>We keep our privacy policy under regular review. This version was last updated on January 11, 2026. Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by email.</p>
     
     <h2>Contact Information</h2>
     <p>If you have any questions about this privacy policy or our privacy practices, please contact us at: <a href="mailto:dev.sunpra@gmail.com">dev.sunpra@gmail.com</a></p>
