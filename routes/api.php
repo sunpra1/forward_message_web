@@ -102,4 +102,27 @@ Route::get('/health-tips', function (Request $request) {
     ], 200);
 });
 
+Route::get('/budget-advice', function (Request $request) {
+    return response()->json([
+        [
+            "id" => "1",
+            "title" => "Follow the 50/30/20 Rule",
+            "description" => "Split your after-tax income into 50% needs (rent, groceries, bills), 30% wants (dining out, entertainment), and 20% savings or debt repayment. It's a simple framework that keeps spending balanced without needing a detailed line-by-line budget.",
+            "image" => "https://i.pinimg.com/736x/5c/4d/da/5c4dda7593b541370e7e0c1deec6acb3.jpg"
+        ],
+        [
+            "id" => "2",
+            "title" => "Track Every Expense for a Month",
+            "description" => "Write down or use an app to log everything you spend for 30 days. Seeing the real numbers—not estimates—usually reveals leaks like subscriptions you forgot about or daily small purchases that add up fast.",
+            "image" => "https://www.howtomoney.com/wp-content/uploads/2023/10/image-1-1.jpg"
+        ],
+        [
+            "id" => "3",
+            "title" => "Automate Your Savings",
+            "description" => "Set up an automatic transfer to a savings account right when your paycheck arrives, before you have a chance to spend it. Treating savings like a fixed bill makes it consistent instead of relying on willpower each month.",
+            "image" => "https://i.pinimg.com/736x/ae/fc/95/aefc951d372ee70a2866042551632356.jpg"
+        ]
+    ], 200);
+});
+
 Route::post('/reply', function(Request $request){ return Response($request->all()); });
